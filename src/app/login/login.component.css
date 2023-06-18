@@ -1,0 +1,124 @@
+/* .login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  height: 100vh;
+  /* background-image: url('../../assets/download.jpg'); */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+background-position: center center;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 300px;
+    height: 30px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: lightgray;
+    cursor: not-
+  }   */
+
+  /* .............................................................................. */
+
+  body {
+    /* background-image:url('https://i.redd.it/o8dlfk93azs31.jpg'); */
+    background-position:center;
+    background-size:cover;
+    
+    -webkit-font-smoothing: antialiased;
+    font: normal 14px Roboto,arial,sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif!important;
+  }
+  
+  .container {
+      padding: 110px;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #3a1008!important;
+      opacity: 1; /* Firefox */
+      font-size:18px!important;
+  }
+
+  .form-login {
+    background-color: rgba(0,0,0,0.55);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    color:rgb(80, 18, 10);
+    box-shadow:0 1px 0 #cfcfcf;
+}
+.form-control{
+    background:transparent!important;
+    color:white!important;
+    font-size: 18px!important;
+}
+h1{
+    color:rgb(73, 24, 22)!important;
+}
+h4 { 
+ border:0 solid #fff; 
+ border-bottom-width:1px;
+ padding-bottom:10px;
+ text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+.text-white{
+    color: white!important;
+}
+.wrapper {
+    text-align: center;
+}
+.forgot-password {
+    color: #5f1111; /* Change the color to your preferred color */
+    text-decoration: none;
+    float: left;
+    
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+    display: flex;
+  }
+  .register-link {
+    color: #471107; /* Change the color to your preferred color */
+    text-decoration: none;
+    float: right;
+  }
+  
+  .register-link:hover {
+    text-decoration: underline;
+  }
